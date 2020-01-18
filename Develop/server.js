@@ -65,5 +65,5 @@ app.delete('/api/notes/:id', (req, res) => {
 
 
 app.listen(port, function(){
-    console.log("http://localhost:"+port);
+    console.log("Aaaaaaaand we're in! Tune in to localhost " + port + " for more!");
 });
